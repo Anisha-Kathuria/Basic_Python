@@ -8,4 +8,4 @@ def insertlist2(a,val):
         return a
     else:
         a[1:]=insertlist2(a[1:],val)
-        return
+        return a
